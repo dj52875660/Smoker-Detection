@@ -1,0 +1,24 @@
+==> torch version: 2.4.0+cu118
+==> cudnn version: 90100
+==> Cmd:
+['/home/xcliu/CNN/Smoker_Detection/smoker_detection/train.py']
+==> Opt:
+  batch_size: 128
+  data_dir: /home/xcliu/CNN/Smoker_Detection/data/Training
+  device: cuda:0
+  eta_min: 1e-05
+  exp_id: default
+  gpu_id: 0
+  image_path: None
+  load_model_path: None
+  log_dir: /home/xcliu/CNN/Smoker_Detection/runs/default/2024-09-12-16-37-50
+  lr: 0.0001
+  max_epochs: 30
+  model_name: convnext_tiny.fb_in22k
+  num_workers: 8
+  pretrained: True
+  resume: False
+  root_dir: /home/xcliu/CNN/Smoker_Detection
+  seed: 42
+  snapshot_path: None
+  test: False
